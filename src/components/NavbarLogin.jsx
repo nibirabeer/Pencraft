@@ -14,7 +14,7 @@ function NavbarLogin() {
   return (
     <div className='navbar-container h-20 flex items-center justify-between w-full'>
       <div className='navbar-title text-3xl pl-20 font-bold font-outfit'>
-        <Link to="/">PenCraft</Link> {/* Use Link to navigate to Home */}
+        <Link to="/Home">PenCraft</Link> {/* Use Link to navigate to Home */}
       </div>
       <div className='pr-20 flex items-center relative'>
         {/* Replaced login and signup buttons with user icon and name */}

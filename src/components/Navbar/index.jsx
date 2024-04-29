@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <div className='navbar-container h-20 flex items-center justify-between w-full'>
       <div className='navbar-title text-3xl pl-20 font-bold font-outfit'>
-        <Link to="/">PenCraft</Link> {/* Use Link to navigate to Home */}
+        <Link to="/Home">PenCraft</Link> {/* Use Link to navigate to Home */}
       </div>
       <div className='pr-20 flex items-center relative'>
         <button className='bg-white text-black px-3 py-2 rounded-md mr-2' onClick={toggleLoginForm}>

@@ -1,16 +1,11 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import BrowserRouter, Route, and Routes from React Router
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import SearchBar from './components/SearchBar';
-import HeroSection from './components/HeroSection';
-import Footer from './components/Footer';
-import AuthorCard from './components/AuthorCard';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 import CookieConsentPopup from './components/CookieConsentPopup';
-import AuthorDashboard from './pages/AuthorDashboard'; // Import the AuthorDashboard component
-import AuthorsList from './pages/AuthorsList'; // Import the AuthorsList component
-import AuthorProfile from './pages/AuthorProfile'; // Import the AuthorProfile component
-import WritingPortfolio from './pages/WritingPortfolio'; // Import the WritingPortfolio component
+import AuthorDashboard from './pages/AuthorDashboard';
+import AuthorsList from './pages/AuthorsList';
+import AuthorProfile from './pages/AuthorProfile';
+import WritingPortfolio from './pages/WritingPortfolio';
 
 function App() {
   const [showCookiePopup, setShowCookiePopup] = useState(true);
@@ -33,18 +28,12 @@ function App() {
           />
         )}
         <Routes>
-          <Route path="/author-dashboard" element={<AuthorDashboard />} /> {/* Route for AuthorDashboard */}
-          <Route path="/authors-list" element={<AuthorsList />} /> {/* Route for AuthorsList */}
-          <Route path="/author-profile" element={<AuthorProfile />} /> {/* Route for AuthorProfile */}
-          <Route path="/writing-portfolio" element={<WritingPortfolio />} /> {/* Route for WritingPortfolio */}
+        <Route path="/Home" element={<Home />} />
+          <Route path="/author-dashboard" element={<AuthorDashboard />} />
+          <Route path="/authors-list" element={<AuthorsList />} />
+          <Route path="/author-profile" element={<AuthorProfile />} />
+          <Route path="/writing-portfolio" element={<WritingPortfolio />} />
         </Routes>
-        <Navbar />
-        
-        <Header />
-        <SearchBar />
-        <AuthorCard />
-        <HeroSection />
-        <Footer />
       </div>
     </Router>
   );
