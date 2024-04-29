@@ -1,0 +1,40 @@
+/* AuthorDashboard.css */
+
+.author-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+  }
+  
+  .dashboard-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .authors-list-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .authors-list-btn:hover {
+    background-color: #333;
+  }
+  

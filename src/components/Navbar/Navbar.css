@@ -1,0 +1,56 @@
+/* Navbar.css */
+
+.navbar-container {
+  background-color: #fff; /* White background */
+  color: #000; /* Black text color */
+}
+
+.navbar-title {
+  color: #000; /* Black text color */
+}
+
+.navbar-menu {
+  color: #000; /* Black text color */
+}
+
+.navbar-menu li {
+  list-style: none; /* Remove list bullet points */
+}
+
+.navbar-menu li:hover {
+  background-color: #eee; /* Light gray background on hover */
+}
+
+.login-signup-form {
+  position: absolute; /* Position the form absolutely */
+  top: calc(100% + 10px); /* Position below the navbar with 10px spacing */
+  right: 0; /* Align to the right */
+  background-color: #fff; /* White background */
+  padding: 20px; /* Padding for the form */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.login-signup-form input[type="text"],
+.login-signup-form input[type="password"],
+.login-signup-form input[type="email"],
+.login-signup-form select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for input fields */
+  margin-bottom: 10px; /* Bottom margin */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.login-signup-form button {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for button */
+  background-color: #007bff; /* Blue button background */
+  color: #fff; /* White button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.login-signup-form button:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}

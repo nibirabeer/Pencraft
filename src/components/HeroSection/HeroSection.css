@@ -1,0 +1,43 @@
+/* HeroSection.css */
+
+.hero-section {
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.hero-section h6 {
+  font-size: 2rem; /* Set font size for the heading */
+  text-align: center; /* Center align the heading */
+  margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.writer {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align content vertically */
+  align-items: center; /* Center items horizontally */
+  margin-top: 20px; /* Add margin between writers */
+  padding: 30px 40px; /* Add padding from right and left */
+}
+
+.photo-frame {
+  width: 150px; /* Set width for the photo frame */
+  height: 150px; /* Set height for the photo frame */
+  border-radius: 50%; /* Make the frame round */
+  overflow: hidden; /* Hide overflow */
+  margin-bottom: 10px; /* Add margin below the photo frame */
+}
+
+.photo {
+  width: 100%; /* Make the photo fill the frame */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.writer h6 {
+  margin-bottom: 10px; /* Add spacing below the writer's name */
+  font-size: 1.2rem; /* Set font size for the writer's name */
+}
+
+.writer p {
+  font-size: 1rem; /* Set font size for the work details */
+  color: #666; /* Set color for the work details */
+  text-align: center; /* Center align the paragraphs */
+}

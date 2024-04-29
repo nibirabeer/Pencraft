@@ -1,0 +1,80 @@
+/* AuthorProfile.css */
+
+.author-profile {
+  padding-top: 50px;
+}
+
+.author-image {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.author-image img {
+  width: 100%;
+}
+
+.author-details {
+  padding-left: 20px;
+}
+
+.author-details h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.author-details h3 {
+  margin-top: 20px;
+}
+
+.author-details p {
+  margin-bottom: 10px;
+}
+
+.author-details input,
+.author-details textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.author-details button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.author-details button:hover {
+  background-color: #333;
+}
+
+/* Adjust Save button position */
+.save-button {
+  margin-top: 20px;
+}
+
+/* Adjust alignment of input fields */
+.form-group {
+  margin-bottom: 10px;
+}
+
+/* Adjust alignment of edit button container */
+.edit-button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add some margin between the cancel and logout buttons */
+.btn-secondary {
+  margin-right: 10px;
+}
