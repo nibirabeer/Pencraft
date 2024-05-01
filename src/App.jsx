@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'; // Import Navigate for redirection
 import Home from './pages/Home';
 import CookieConsentPopup from './components/CookieConsentPopup';
 import AuthorDashboard from './pages/AuthorDashboard';
@@ -28,7 +28,9 @@ function App() {
           />
         )}
         <Routes>
-        <Route path="/Home" element={<Home />} />
+          {/* Redirect to Home component when root path is accessed */}
+          <Route path="/" element={<Navigate to="/Home" />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/author-dashboard" element={<AuthorDashboard />} />
           <Route path="/authors-list" element={<AuthorsList />} />
           <Route path="/author-profile" element={<AuthorProfile />} />
