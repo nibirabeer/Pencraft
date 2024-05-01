@@ -36,7 +36,7 @@ npm install
 
 4. Start the development server:
 npm run dev
-5. Open your web browser and navigate to (http://localhost:5173/) to view the application.
+5. Open your web browser and navigate to (http://localhost:5173/Home) to view the application.
 
 This project was developed by MD ABIDUR RAHMAN MRIDHA. You can find more of their work at (https://github.com/nibirabeer).
 For feedback or support regarding this project, please contact abirnibir10@gmail.com
